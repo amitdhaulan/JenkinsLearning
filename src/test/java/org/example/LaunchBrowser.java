@@ -10,6 +10,7 @@ public class LaunchBrowser {
         EdgeDriver driver = new EdgeDriver();
         driver.manage().window().maximize();
         driver.get("http://www.google.com");
+        System.out.println("Amit testing for Jenkins");
 
     }
 }
